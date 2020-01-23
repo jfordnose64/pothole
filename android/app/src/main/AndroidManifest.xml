@@ -9,6 +9,8 @@
         android:name="io.flutter.app.FlutterApplication"
         android:label="pothole"
         android:icon="@mipmap/ic_launcher">
+        <meta-data android:name="com.google.android.geo.API_KEY"
+               android:value="AIzaSyAAFeSFgfqFmJFpVnGiZV9zDCKs7SXP8Z4"/>
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
@@ -26,5 +28,6 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
+<uses-permission android:name="android.permission.INTERNET" />
     </application>
 </manifest>
