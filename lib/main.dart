@@ -12,8 +12,8 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {'/': (context) => App()},
       theme: ThemeData(
-          primarySwatch: Colors.blueGrey,
-          brightness: Brightness.light,
+          primarySwatch: Colors.red,
+          brightness: Brightness.dark,
           primaryColor: Colors.grey),
     );
   }
