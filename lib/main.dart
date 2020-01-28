@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Pothole Tracker',
       initialRoute: '/',
       routes: {'/': (context) => App()},
       theme: ThemeData(
