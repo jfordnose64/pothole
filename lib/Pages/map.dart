@@ -19,7 +19,21 @@ class Map extends StatelessWidget {
           target: _center,
           zoom: 11.0,
         ),
+        markers: {
+          stPeteMarker,
+        },
+        myLocationButtonEnabled: true,
+        compassEnabled: true,
       ),
     );
   }
 }
+
+Marker stPeteMarker = Marker(
+  markerId: MarkerId('stPeteMarker'),
+  position: LatLng(27.850409040866424, -82.6863281428814),
+  infoWindow: InfoWindow(title: 'Marker 1'),
+  icon: BitmapDescriptor.defaultMarkerWithHue(
+    BitmapDescriptor.hueViolet,
+  ),
+);
