@@ -5,7 +5,7 @@ class Account extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
-        children: <Widget>[Text('hello world')],
+        children: <Widget>[Text('Hello World'), Text('Sign Up')],
       ),
     );
   }
