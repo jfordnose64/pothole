@@ -18,7 +18,7 @@ class Map extends StatelessWidget {
         onMapCreated: _onMapCreated,
         initialCameraPosition: CameraPosition(
           target: _center,
-          zoom: 11.0,
+          zoom: 12.0,
         ),
         markers: {
           stPeteMarker,
